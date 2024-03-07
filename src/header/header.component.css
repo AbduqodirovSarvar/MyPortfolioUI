@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.header_navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 750px;
+  height: 30px;
+}
+
+.header_logo{
+  width: 100px;
+  height: 60px;
+  color: rgb(105, 102, 102);
+  text-align: center;
+  margin: 30px;
+}
+
+.header_navbar_pages{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cv_button{
+  width: 6%;
+  color: black;
+  background-color: blue;
+  border-radius: 40%;
+}
+
+.header_navbar_socials {
+  display: flex;
+  justify-content: space-between;
+  width: 12%;
+}
+
+.header_navbar_socials_element{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 60%;
+}
