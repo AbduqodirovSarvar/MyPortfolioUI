@@ -1,0 +1,17 @@
+*{
+  margin-bottom: 50px;
+}
+
+.bg-line{
+  width: 60%;
+  height: 2px;
+  background: #858080;
+}
+
+.education{
+  list-style: none;
+}
+
+.education_title{
+  color: blue;
+}

@@ -1,0 +1,16 @@
+
+
+.about_title{
+  color: blue;
+  font-size: 36px;
+}
+.about_desc{
+  width: 600px;
+  font-size: 20px;
+  color: #999;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  line-height: 30px;
+  /* background-color: red; */
+}
+

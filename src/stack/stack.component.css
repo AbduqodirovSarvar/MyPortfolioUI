@@ -1,0 +1,16 @@
+p{
+  margin: 0;
+}
+
+.stack_img{
+  width: 100px;
+  text-align: center;
+}
+
+.stack_wrap{
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 140px;
+}

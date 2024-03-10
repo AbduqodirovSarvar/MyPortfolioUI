@@ -1,0 +1,20 @@
+
+
+.project_img_card{
+  width: 320px;
+  background-color: pink;
+}
+
+.project_link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}

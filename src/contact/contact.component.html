@@ -11,14 +11,8 @@
       <h1>For any questions please contacts us:</h1>
     </div>
     <div class="contact_types">
-      <ul>
-        <li class="contact_type_name">email: <a href="#" class="contact_type_link">name</a></li>
-      </ul>
-      <ul>
-        <li class="contact_type_name">telegram: <a href="#" class="contact_type_link">name</a></li>
-      </ul>
-      <ul>
-        <li class="contact_type_name">linkedin: <a href="#" class="contact_type_link">name</a></li>
+      <ul *ngFor="let item of getUser()">
+        <li class="contact_type_name">type: <a href="#" class="contact_type_link">{{item.email}}</a></li>
       </ul>
     </div>
     <div class="contact_cv">
