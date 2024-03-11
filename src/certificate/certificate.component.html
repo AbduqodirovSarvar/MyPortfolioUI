@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+</head>
+<body>
+  <div style="width: 800px;">
+    <div class="certificate_title">
+      <h3>Certificates</h3>
+    </div>
+      <ul *ngFor="let item of [1, 2, 3]" class="certificate">
+        <li>
+          <p class="certificate_top_name">Junior Web Developer{{item}}</p>
+          <div class="certficate_desc">
+            <p>Najot talim</p>
+            <p class="desc">Time along</p>
+          </div>
+          <div class="certficate_links">
+            <a href="#">View certificate</a>
+            <a href="#">Check</a>
+          </div>
+          <hr>
+        </li>
+      </ul>
+  </div>
+</body>
+</html>

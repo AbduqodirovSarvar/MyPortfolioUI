@@ -8,14 +8,15 @@ import { EducationComponent } from '../education/education.component';
 import { StackComponent } from '../stack/stack.component';
 import { ProjectComponent } from '../project/project.component';
 import { ContactComponent } from '../contact/contact.component';
-import { FooterComponent } from '../footer/footer.component';
+import { LanguageComponent } from '../language/language.component';
+import { CertificateComponent } from '../certificate/certificate.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, HomeComponent, AboutComponent,
             ExperienceComponent, EducationComponent, StackComponent, ProjectComponent,
-            ContactComponent, FooterComponent],
+            ContactComponent, LanguageComponent, CertificateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

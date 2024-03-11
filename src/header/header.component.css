@@ -8,7 +8,7 @@
   justify-content: space-between;
   margin-bottom: 150px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
 }
 
 .header_navbar{
@@ -33,7 +33,7 @@
 }
 .header_navbar_pages a{
   text-decoration: none;
-  color: red;
+  color: rgb(35, 34, 34);
 }
 .cv_button{
   width: 6%;

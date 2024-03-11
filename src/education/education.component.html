@@ -10,14 +10,16 @@
     <div class="education_title">
       <h3>Educations</h3>
     </div>
-    <div class="all_educations">
       <ul *ngFor="let item of [1, 2, 3]" class="education">
         <li>
-          <p>education{{item}}</p>
-          <div class="bg-line"></div>
+          <p class="education_top_name">Junior Web Developer{{item}}</p>
+          <div class="education_bottom">
+            <p>Najot talim</p>
+            <p class="desc">Time along</p>
+          </div>
+          <hr>
         </li>
       </ul>
-    </div>
   </div>
 </body>
 </html>

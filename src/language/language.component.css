@@ -1,0 +1,16 @@
+.Language_title{
+  color: blue;
+  font-size: 36px;
+}
+
+.language{
+  margin-bottom: 10px;
+  width: 800px;
+}
+
+.language_list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}

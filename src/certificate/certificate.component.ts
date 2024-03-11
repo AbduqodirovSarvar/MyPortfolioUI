@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-experience',
+  selector: 'app-certificate',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css'
+  templateUrl: './certificate.component.html',
+  styleUrl: './certificate.component.css'
 })
-export class ExperienceComponent {
+export class CertificateComponent {
 
 }

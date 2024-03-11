@@ -7,10 +7,21 @@ p{
   text-align: center;
 }
 
+h3{
+  color: blue;
+  font-size: 36px;
+}
+
+p{
+  font-size: 20px;
+  color: #999;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
 .stack_wrap{
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
   gap: 140px;
 }

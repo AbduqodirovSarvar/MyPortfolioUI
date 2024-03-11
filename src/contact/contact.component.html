@@ -6,18 +6,18 @@
   <title>Contact</title>
 </head>
 <body>
-  <div class="contact">
-    <div class="contact_text">
-      <h1>For any questions please contacts us:</h1>
-    </div>
-    <div class="contact_types">
-      <ul *ngFor="let item of getUser()">
-        <li class="contact_type_name">type: <a href="#" class="contact_type_link">{{item.email}}</a></li>
-      </ul>
-    </div>
-    <div class="contact_cv">
+  <div class="divv">
+    <div class="contact">
+      <div class="contact_text">
+        <p>For any questions please contacts us:</p>
+      </div>
+      <div class="contact_types">
+        <ul *ngFor="let item of getUser()">
+          <li class="contact_type_name">type: <a href="#" class="contact_type_link">{{item.email}}</a></li>
+        </ul>
+      </div>
       <p class="contact_cv_button_text">Download my CV to know more about me</p>
-      <button class="contact_cv_download_button">Download CV</button>
+        <button class="contact_cv_download_button">Download CV</button>
     </div>
   </div>
 </body>

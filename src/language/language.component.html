@@ -1,1 +1,22 @@
-<p>language works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <div class="Language_title">
+      <h3>Languages</h3>
+    </div>
+      <ul *ngFor="let item of [1, 2, 3]" class="language">
+        <li class="language_list">
+          <p class="language_name">Language{{item}}</p>
+          <p>level{{item}}</p>
+        </li>
+        <hr>
+      </ul>
+  </div>
+</body>
+</html>

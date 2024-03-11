@@ -1,8 +1,14 @@
-
-
 .project_img_card{
   width: 320px;
-  background-color: pink;
+}
+
+.project_title{
+  font-size: 36px;
+  color: blue;
+}
+
+.project_desc{
+  font-size: 24px;
 }
 
 .project_link{
